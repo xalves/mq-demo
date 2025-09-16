@@ -4,7 +4,7 @@ This plan outlines the test-driven development of a Consumer Producer Implementa
 ## Actions to Implement
 
 ### Basic Setup Tasks
-- [] Project should work using devcontainers.
+- [x] Project should work using devcontainers.
 
 ### Implementation tests
 - [] Producer should be able to send message to a queue.
