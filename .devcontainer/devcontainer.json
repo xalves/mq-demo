@@ -1,0 +1,21 @@
+{
+  "name": "Java JMS DevContainer",
+  "image": "mcr.microsoft.com/devcontainers/java:0-21",
+  "features": {
+    "ghcr.io/devcontainers/features/java": {
+      "version": "21"
+    },
+    "ghcr.io/devcontainers/features/maven": {
+      "version": "latest"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  },
+  "postCreateCommand": "mvn --version",
+  "remoteUser": "vscode"
+}
